@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">geoquiz2</string>
+    <string name="check">True</string>
+    <string name="check1">False</string>
+    <string name="correct">correct answer!</string>
+    <string name="False">you got this one wrong!!</string>
+    <string name="next">Next Question</string>
+    <string name="delhi">Delhi is the capital of India</string>
+    <string name="Dehradun">Dehradun is the capital of uttarakahnd</string>
+    <string name="DIT">DIT is located in dehradun</string>
+</resources>
