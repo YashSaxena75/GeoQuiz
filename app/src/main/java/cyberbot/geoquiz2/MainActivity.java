@@ -119,7 +119,7 @@ public class MainActivity extends Activity
     }
     public void showAnswer()
     {
-        String msg1=("Your grade is "+ c);
+        String msg1=("Your grade is : "+ c);
         Toast.makeText(this,msg1, Toast.LENGTH_SHORT).show();
     }
     @Override
