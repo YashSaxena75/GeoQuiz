@@ -40,15 +40,17 @@ public class MainActivity extends Activity
         if (userPressedTrue == answerIsTrue) {
             messageResId = R.string.correct;
            c++;
-           showAnswer();
+//           showAnswer();
         }
          else {
             messageResId = R.string.False;
             c--;
-            showAnswer();
+//            showAnswer();
         }
         Toast.makeText(this, messageResId, Toast.LENGTH_SHORT)
                 .show();
+
+        showAnswer();
     }
 
     @Override
@@ -118,7 +120,7 @@ public class MainActivity extends Activity
     public void showAnswer()
     {
         String msg1=("Your grade is "+ c);
-        Toast.makeText(this,c, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,msg1, Toast.LENGTH_SHORT).show();
     }
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
